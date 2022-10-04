@@ -1,0 +1,115 @@
+{% extends 'base.html' %}
+{% block content %}
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 pt-5">
+                <h2 class="text-center">Compete, Compel, Convert.</h2>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center p-5">
+                    <p>
+                        Compete and stand out among your competitors with a stunning, exclusive, and, impressive
+                        website. Convert your visitors to new patients with a site that truly reflects your attention to
+                        details, your skills and experience, and your team’s compassionate attitude.
+                    </p>
+                    <p>
+                        Save time and money working with experienced professionals who know your specialty. Protect your
+                        practice as well as your patients information by upgrading to a HIPAA compliant service. Stay
+                        compliant with accessibility guidelines. Meet requirements by Google, and other browsers on the
+                        internet by updating your website’s security with SSL Certification.
+                    </p>
+                    <p>
+                        Educate your patients with multimedia educational material from text to video. Increase
+                        conversion, improve case acceptance, save chair-side time and prepare patients for treatments
+                        with an exceptionally developed website that works like a full time staff member for your
+                        practice.
+                    </p>
+                </div>
+            </div>
+            <div id="call_to_action">
+                <div class="row mb-4">
+                    <div class="col-12 d-flex justify-content-center pt-4">
+                        <h2 class="text-dark">Let's get something amazing going!</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12  d-flex justify-content-center">
+                        <button class="btn btn-outline-dark btn-lg mb-5">Get in touch</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="row p-5">
+                    <div class="col-3">
+                        <div class="card" style="width: 18rem;">
+                            {% load static %}
+                            <img class="card-img-top" src="{% static 'images/plans-1867745_640.jpg' %}"
+                                 alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Web design</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of
+                                    the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="{% static 'images/laptop-2620118_640.jpg' %}"
+                                 alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Software Development</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of
+                                    the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="{% static 'images/seascape-7471616_640.jpg' %}"
+                                 alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">SEO</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of
+                                    the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="{% static 'images/facebook-793048_640.jpg' %}"
+                                 alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Social Media Marketing</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of
+                                    the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mb-5" id="call_to_action">
+            <div class="row mb-4">
+                <div class="col-12 d-flex justify-content-center pt-4">
+                    <h2 class="text-dark">Let's get to know each other</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12  d-flex justify-content-center">
+                    <a class="btn btn-outline-dark btn-lg mb-5" href="{% url 'contact' %}">Contact</a>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

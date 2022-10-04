@@ -1,0 +1,11 @@
+/* Home page styles */
+header {
+    background-image: url("../images/canyon-1740973_1920.jpg");
+    height: 500px;
+    background-position: center;
+}
+
+#call_to_action {
+    background-color: whitesmoke;
+    height: 200px;
+}

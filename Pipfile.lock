@@ -1,0 +1,60 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "cd95fdf4510df0a7369550d30d530d9f3c7abe57a7c6290ebd0ebbd0bc2d8361"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3.9"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "asgiref": {
+            "hashes": [
+                "sha256:1d2880b792ae8757289136f1db2b7b99100ce959b2aa57fd69dab783d05afac4",
+                "sha256:4a29362a6acebe09bf1d6640db38c1dc3d9217c68e6f9f6204d72667fc19a424"
+            ],
+            "index": "pypi",
+            "version": "==3.5.2"
+        },
+        "django": {
+            "hashes": [
+                "sha256:a153ffd5143bf26a877bfae2f4ec736ebd8924a46600ca089ad96b54a1d4e28e",
+                "sha256:acb21fac9275f9972d81c7caf5761a89ec3ea25fe74545dd26b8a48cb3a0203e"
+            ],
+            "index": "pypi",
+            "version": "==4.1.1"
+        },
+        "django-icons": {
+            "hashes": [
+                "sha256:537d8784ab3974a1b2faab6f5cb455b99e0093a0bd47251cc34c4f1ce4a38945",
+                "sha256:66453e153456ca7c7783960990cd06c66e3c33e97627fd13b205af9d9d72afba"
+            ],
+            "index": "pypi",
+            "version": "==22.1"
+        },
+        "fontawesomefree": {
+            "hashes": [
+                "sha256:a76ff830e43cf3a8bdc9249a3570f02047696c6bdf118899221a340f238d87b4"
+            ],
+            "index": "pypi",
+            "version": "==6.2.0"
+        },
+        "sqlparse": {
+            "hashes": [
+                "sha256:0323c0ec29cd52bceabc1b4d9d579e311f3e4961b98d174201d5622a23b85e34",
+                "sha256:69ca804846bb114d2ec380e4360a8a340db83f0ccf3afceeb1404df028f57268"
+            ],
+            "index": "pypi",
+            "version": "==0.4.3"
+        }
+    },
+    "develop": {}
+}
